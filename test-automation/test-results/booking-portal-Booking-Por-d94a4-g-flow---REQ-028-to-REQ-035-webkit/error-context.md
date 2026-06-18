@@ -1,0 +1,118 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "HotelBook" [ref=e7]:
+        - /url: /
+        - img [ref=e8]
+        - generic [ref=e12]: HotelBook
+      - navigation [ref=e13]:
+        - link "Home" [ref=e14]:
+          - /url: /
+        - link "Browse Hotels" [ref=e15]:
+          - /url: /search
+        - link "About" [ref=e16]:
+          - /url: /about
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - heading "Find Your Perfect Stay" [level=1] [ref=e22]
+          - paragraph [ref=e23]: Book hotels worldwide with confidence and ease
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - img [ref=e29]
+                - text: Destination
+              - textbox "Where are you going?" [ref=e32]
+            - generic [ref=e33]:
+              - generic [ref=e34]:
+                - img [ref=e35]
+                - text: Check-in
+              - textbox [ref=e37]
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - text: Check-out
+              - textbox [ref=e42]
+            - generic [ref=e43]:
+              - generic [ref=e44]:
+                - img [ref=e45]
+                - text: Guests
+              - spinbutton [ref=e50]: "1"
+          - button "Search Hotels" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+            - text: Search Hotels
+      - generic [ref=e56]:
+        - heading "Why Book With Us?" [level=2] [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img [ref=e61]
+            - heading "Wide Selection" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Choose from thousands of hotels worldwide
+          - generic [ref=e67]:
+            - img [ref=e69]
+            - heading "Secure Booking" [level=3] [ref=e71]
+            - paragraph [ref=e72]: Your data is protected with industry-standard encryption
+          - generic [ref=e73]:
+            - img [ref=e75]
+            - heading "24/7 Support" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Customer service available whenever you need help
+          - generic [ref=e80]:
+            - img [ref=e82]
+            - heading "Best Prices" [level=3] [ref=e85]
+            - paragraph [ref=e86]: Competitive rates and exclusive deals
+      - generic [ref=e88]:
+        - heading "Ready to Book?" [level=2] [ref=e89]
+        - paragraph [ref=e90]: Start your journey by searching for hotels in your destination
+        - link "Browse All Hotels" [ref=e91]:
+          - /url: /search
+  - contentinfo [ref=e92]:
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - img [ref=e97]
+            - generic [ref=e101]: HotelBook
+          - paragraph [ref=e102]: Find and book your perfect hotel stay with confidence.
+        - generic [ref=e103]:
+          - heading "Quick Links" [level=3] [ref=e104]
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - link "Home" [ref=e107]:
+                - /url: /
+            - listitem [ref=e108]:
+              - link "Browse Hotels" [ref=e109]:
+                - /url: /search
+            - listitem [ref=e110]:
+              - link "About Us" [ref=e111]:
+                - /url: /about
+        - generic [ref=e112]:
+          - heading "Support" [level=3] [ref=e113]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "Help Center" [ref=e116]:
+                - /url: "#"
+            - listitem [ref=e117]:
+              - link "Privacy Policy" [ref=e118]:
+                - /url: "#"
+            - listitem [ref=e119]:
+              - link "Terms of Service" [ref=e120]:
+                - /url: "#"
+        - generic [ref=e121]:
+          - heading "Contact Us" [level=3] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - img [ref=e125]
+              - generic [ref=e127]: +1 (555) 123-4567
+            - listitem [ref=e128]:
+              - img [ref=e129]
+              - generic [ref=e132]: support@hotelbook.com
+            - listitem [ref=e133]:
+              - img [ref=e134]
+              - generic [ref=e137]: New York, NY 10001
+      - paragraph [ref=e139]: © 2026 HotelBook Platform. All rights reserved.
+```

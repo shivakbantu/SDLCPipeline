@@ -1,0 +1,2452 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\playwright.config.ts",
+    "rootDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 9
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 9
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 9
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 9
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 9
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 9
+        },
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "C:/Users/ShivaKumarBantu/Documents/SDLC/SDLCPipeline/test-automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 9,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "booking-portal.spec.ts",
+      "file": "booking-portal.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Booking Portal - Customer Flow",
+          "file": "booking-portal.spec.ts",
+          "line": 20,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@critical @booking-portal Search hotels and view results - REQ-009",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 32447,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 33
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"destination\"], input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 31 |\u001b[39m     \n \u001b[90m 32 |\u001b[39m     \u001b[90m// Fill search form\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"destination\"], input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 34 |\u001b[39m     \n \u001b[90m 35 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:33:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.836Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-240a8ef53f61acf897db",
+              "file": "booking-portal.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Apply filters to search results - REQ-010, REQ-011, REQ-012",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "timedOut",
+                      "duration": 32203,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 62
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \n \u001b[90m 61 |\u001b[39m     \u001b[90m// Perform search first\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:62:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.765Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-de46248a9745a5632ec4",
+              "file": "booking-portal.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal View hotel details - REQ-020 to REQ-027",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "timedOut",
+                      "duration": 32741,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 99
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m  97 |\u001b[39m     \n \u001b[90m  98 |\u001b[39m     \u001b[90m// Search and select first hotel\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  99 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 101 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:99:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.846Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-f6d569768ec49f304092",
+              "file": "booking-portal.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Complete booking flow - REQ-028 to REQ-035",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 32675,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 135
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 133 |\u001b[39m     \n \u001b[90m 134 |\u001b[39m     \u001b[90m// Search for hotels\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:135:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.743Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-e6a942ad3813e24aee58",
+              "file": "booking-portal.spec.ts",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Sort search results - REQ-015, REQ-016",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 32578,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 219
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 217 |\u001b[39m \u001b[90m     */\u001b[39m\n \u001b[90m 218 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 219 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 220 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 222 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:219:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.819Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-ef3860a7d839cb2c21b4",
+              "file": "booking-portal.spec.ts",
+              "line": 212,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal View booking history - REQ-008, REQ-038",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 5386,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.845Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-5d46ad2d9a90f3c2f4dd",
+              "file": "booking-portal.spec.ts",
+              "line": 240,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Search hotels and view results - REQ-009",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 8,
+                      "status": "failed",
+                      "duration": 4,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-Xo2eUt -juggler-pipe -silent\n<launched> pid=40136\n[pid=40136] <process did exit: exitCode=3221225477, signal=null>\n[pid=40136] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-Xo2eUt -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=40136\u001b[22m\n\u001b[2m  - [pid=40136] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=40136] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=40136] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=40136] <kill>\u001b[22m\n\u001b[2m  - [pid=40136] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=40136] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=40136] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-Xo2eUt -juggler-pipe -silent\n<launched> pid=40136\n[pid=40136] <process did exit: exitCode=3221225477, signal=null>\n[pid=40136] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-Xo2eUt -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=40136\u001b[22m\n\u001b[2m  - [pid=40136] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=40136] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=40136] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=40136] <kill>\u001b[22m\n\u001b[2m  - [pid=40136] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=40136] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=40136] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-Xo2eUt -juggler-pipe -silent\n<launched> pid=40136\n[pid=40136] <process did exit: exitCode=3221225477, signal=null>\n[pid=40136] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-Xo2eUt -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=40136\u001b[22m\n\u001b[2m  - [pid=40136] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=40136] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=40136] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=40136] <kill>\u001b[22m\n\u001b[2m  - [pid=40136] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=40136] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=40136] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.927Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-f7a0c2ea7b0a3559c146",
+              "file": "booking-portal.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Apply filters to search results - REQ-010, REQ-011, REQ-012",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 8,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-ycp300 -juggler-pipe -silent\n<launched> pid=10056\n[pid=10056] <process did exit: exitCode=3221225477, signal=null>\n[pid=10056] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-ycp300 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=10056\u001b[22m\n\u001b[2m  - [pid=10056] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=10056] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=10056] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=10056] <kill>\u001b[22m\n\u001b[2m  - [pid=10056] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=10056] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=10056] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-ycp300 -juggler-pipe -silent\n<launched> pid=10056\n[pid=10056] <process did exit: exitCode=3221225477, signal=null>\n[pid=10056] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-ycp300 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=10056\u001b[22m\n\u001b[2m  - [pid=10056] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=10056] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=10056] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=10056] <kill>\u001b[22m\n\u001b[2m  - [pid=10056] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=10056] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=10056] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-ycp300 -juggler-pipe -silent\n<launched> pid=10056\n[pid=10056] <process did exit: exitCode=3221225477, signal=null>\n[pid=10056] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-ycp300 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=10056\u001b[22m\n\u001b[2m  - [pid=10056] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=10056] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=10056] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=10056] <kill>\u001b[22m\n\u001b[2m  - [pid=10056] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=10056] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=10056] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:42.713Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-fa69c759452441ead75b",
+              "file": "booking-portal.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal View hotel details - REQ-020 to REQ-027",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 7,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BoVZu5 -juggler-pipe -silent\n<launched> pid=33020\n[pid=33020] <process did exit: exitCode=3221225477, signal=null>\n[pid=33020] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BoVZu5 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=33020\u001b[22m\n\u001b[2m  - [pid=33020] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=33020] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=33020] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=33020] <kill>\u001b[22m\n\u001b[2m  - [pid=33020] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=33020] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=33020] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BoVZu5 -juggler-pipe -silent\n<launched> pid=33020\n[pid=33020] <process did exit: exitCode=3221225477, signal=null>\n[pid=33020] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BoVZu5 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=33020\u001b[22m\n\u001b[2m  - [pid=33020] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=33020] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=33020] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=33020] <kill>\u001b[22m\n\u001b[2m  - [pid=33020] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=33020] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=33020] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BoVZu5 -juggler-pipe -silent\n<launched> pid=33020\n[pid=33020] <process did exit: exitCode=3221225477, signal=null>\n[pid=33020] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-BoVZu5 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=33020\u001b[22m\n\u001b[2m  - [pid=33020] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=33020] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=33020] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=33020] <kill>\u001b[22m\n\u001b[2m  - [pid=33020] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=33020] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=33020] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:42.879Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-9253b72b05f4aa61dbf8",
+              "file": "booking-portal.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Complete booking flow - REQ-028 to REQ-035",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 8,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-q2s7R0 -juggler-pipe -silent\n<launched> pid=12516\n[pid=12516] <process did exit: exitCode=3221225477, signal=null>\n[pid=12516] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-q2s7R0 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=12516\u001b[22m\n\u001b[2m  - [pid=12516] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=12516] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=12516] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=12516] <kill>\u001b[22m\n\u001b[2m  - [pid=12516] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=12516] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=12516] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-q2s7R0 -juggler-pipe -silent\n<launched> pid=12516\n[pid=12516] <process did exit: exitCode=3221225477, signal=null>\n[pid=12516] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-q2s7R0 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=12516\u001b[22m\n\u001b[2m  - [pid=12516] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=12516] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=12516] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=12516] <kill>\u001b[22m\n\u001b[2m  - [pid=12516] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=12516] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=12516] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-q2s7R0 -juggler-pipe -silent\n<launched> pid=12516\n[pid=12516] <process did exit: exitCode=3221225477, signal=null>\n[pid=12516] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-q2s7R0 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=12516\u001b[22m\n\u001b[2m  - [pid=12516] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=12516] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=12516] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=12516] <kill>\u001b[22m\n\u001b[2m  - [pid=12516] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=12516] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=12516] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:45.267Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-ddcedbb969a5caaea9d5",
+              "file": "booking-portal.spec.ts",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Sort search results - REQ-015, REQ-016",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 7,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qpLfRU -juggler-pipe -silent\n<launched> pid=42204\n[pid=42204] <process did exit: exitCode=3221225477, signal=null>\n[pid=42204] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qpLfRU -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=42204\u001b[22m\n\u001b[2m  - [pid=42204] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=42204] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=42204] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=42204] <kill>\u001b[22m\n\u001b[2m  - [pid=42204] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=42204] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=42204] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qpLfRU -juggler-pipe -silent\n<launched> pid=42204\n[pid=42204] <process did exit: exitCode=3221225477, signal=null>\n[pid=42204] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qpLfRU -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=42204\u001b[22m\n\u001b[2m  - [pid=42204] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=42204] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=42204] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=42204] <kill>\u001b[22m\n\u001b[2m  - [pid=42204] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=42204] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=42204] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qpLfRU -juggler-pipe -silent\n<launched> pid=42204\n[pid=42204] <process did exit: exitCode=3221225477, signal=null>\n[pid=42204] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-qpLfRU -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=42204\u001b[22m\n\u001b[2m  - [pid=42204] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=42204] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=42204] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=42204] <kill>\u001b[22m\n\u001b[2m  - [pid=42204] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=42204] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=42204] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:45.385Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-747a7ed453644efbf4eb",
+              "file": "booking-portal.spec.ts",
+              "line": 212,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal View booking history - REQ-008, REQ-038",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-IwjU68 -juggler-pipe -silent\n<launched> pid=1632\n[pid=1632] <process did exit: exitCode=3221225477, signal=null>\n[pid=1632] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-IwjU68 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=1632\u001b[22m\n\u001b[2m  - [pid=1632] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=1632] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1632] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1632] <kill>\u001b[22m\n\u001b[2m  - [pid=1632] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=1632] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1632] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-IwjU68 -juggler-pipe -silent\n<launched> pid=1632\n[pid=1632] <process did exit: exitCode=3221225477, signal=null>\n[pid=1632] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-IwjU68 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=1632\u001b[22m\n\u001b[2m  - [pid=1632] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=1632] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1632] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1632] <kill>\u001b[22m\n\u001b[2m  - [pid=1632] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=1632] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1632] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-IwjU68 -juggler-pipe -silent\n<launched> pid=1632\n[pid=1632] <process did exit: exitCode=3221225477, signal=null>\n[pid=1632] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-IwjU68 -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=1632\u001b[22m\n\u001b[2m  - [pid=1632] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=1632] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1632] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1632] <kill>\u001b[22m\n\u001b[2m  - [pid=1632] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=1632] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1632] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:46.538Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-c82563b31b7e5fdd1ed6",
+              "file": "booking-portal.spec.ts",
+              "line": 240,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Search hotels and view results - REQ-009",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 5,
+                      "status": "timedOut",
+                      "duration": 37935,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 33
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"destination\"], input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 31 |\u001b[39m     \n \u001b[90m 32 |\u001b[39m     \u001b[90m// Fill search form\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"destination\"], input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 34 |\u001b[39m     \n \u001b[90m 35 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:33:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:48.930Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-41962ea1f96bcbae65d2",
+              "file": "booking-portal.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Apply filters to search results - REQ-010, REQ-011, REQ-012",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 8,
+                      "status": "timedOut",
+                      "duration": 38460,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 62
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \n \u001b[90m 61 |\u001b[39m     \u001b[90m// Perform search first\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:62:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:50.451Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-2473667f5d0ada511c0a",
+              "file": "booking-portal.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal View hotel details - REQ-020 to REQ-027",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 7,
+                      "status": "timedOut",
+                      "duration": 38147,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 99
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m  97 |\u001b[39m     \n \u001b[90m  98 |\u001b[39m     \u001b[90m// Search and select first hotel\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  99 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 101 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:99:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:50.542Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-243da243cc8ed757208d",
+              "file": "booking-portal.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Complete booking flow - REQ-028 to REQ-035",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "timedOut",
+                      "duration": 35949,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 135
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 133 |\u001b[39m     \n \u001b[90m 134 |\u001b[39m     \u001b[90m// Search for hotels\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:135:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:13.366Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-99e89467586193587a72",
+              "file": "booking-portal.spec.ts",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Sort search results - REQ-015, REQ-016",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 36145,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 219
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 217 |\u001b[39m \u001b[90m     */\u001b[39m\n \u001b[90m 218 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 219 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 220 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 222 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:219:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:13.570Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-0c3415e6b331ad0674ba",
+              "file": "booking-portal.spec.ts",
+              "line": 212,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal View booking history - REQ-008, REQ-038",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2287,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:13.905Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-3ec50bcf3a8bfaaab436",
+              "file": "booking-portal.spec.ts",
+              "line": 240,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Search hotels and view results - REQ-009",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 34471,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 33
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"destination\"], input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 31 |\u001b[39m     \n \u001b[90m 32 |\u001b[39m     \u001b[90m// Fill search form\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"destination\"], input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 34 |\u001b[39m     \n \u001b[90m 35 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:33:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:19.184Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-Mobile-Chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-Mobile-Chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-Mobile-Chrome\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-335c631fa0d915c70d3d",
+              "file": "booking-portal.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Apply filters to search results - REQ-010, REQ-011, REQ-012",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 6,
+                      "status": "timedOut",
+                      "duration": 34699,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 62
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \n \u001b[90m 61 |\u001b[39m     \u001b[90m// Perform search first\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:62:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:19.634Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-Mobile-Chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-Mobile-Chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-Mobile-Chrome\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-6ed9ad9c8b51de1158eb",
+              "file": "booking-portal.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal View hotel details - REQ-020 to REQ-027",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 26,
+                      "parallelIndex": 2,
+                      "status": "timedOut",
+                      "duration": 34781,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 99
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m  97 |\u001b[39m     \n \u001b[90m  98 |\u001b[39m     \u001b[90m// Search and select first hotel\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  99 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 101 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:99:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:20.484Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-Mobile-Chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-Mobile-Chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-Mobile-Chrome\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-238e1bfd8d7e92e64174",
+              "file": "booking-portal.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Complete booking flow - REQ-028 to REQ-035",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 27,
+                      "parallelIndex": 5,
+                      "status": "timedOut",
+                      "duration": 36258,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 135
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 133 |\u001b[39m     \n \u001b[90m 134 |\u001b[39m     \u001b[90m// Search for hotels\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:135:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:35.711Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-Mobile-Chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-Mobile-Chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-Mobile-Chrome\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-05db4c454d3e7bd7f7db",
+              "file": "booking-portal.spec.ts",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Sort search results - REQ-015, REQ-016",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 28,
+                      "parallelIndex": 7,
+                      "status": "timedOut",
+                      "duration": 37960,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 219
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 217 |\u001b[39m \u001b[90m     */\u001b[39m\n \u001b[90m 218 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 219 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 220 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 222 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:219:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:37.676Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-Mobile-Chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-Mobile-Chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-Mobile-Chrome\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-d1e280ead399826d13a2",
+              "file": "booking-portal.spec.ts",
+              "line": 212,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal View booking history - REQ-008, REQ-038",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 8,
+                      "status": "passed",
+                      "duration": 1306,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:37.961Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-57899ed6544f24894e63",
+              "file": "booking-portal.spec.ts",
+              "line": 240,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Search hotels and view results - REQ-009",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 31,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 34917,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 33
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[name=\"destination\"], input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 31 |\u001b[39m     \n \u001b[90m 32 |\u001b[39m     \u001b[90m// Fill search form\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 33 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[name=\"destination\"], input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 34 |\u001b[39m     \n \u001b[90m 35 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:33:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:52.116Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-Mobile-Safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-Mobile-Safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6c65f--and-view-results---REQ-009-Mobile-Safari\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-7e3ad52b15c5b5e755e7",
+              "file": "booking-portal.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Apply filters to search results - REQ-010, REQ-011, REQ-012",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 32,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 35059,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 62
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 60 |\u001b[39m     \n \u001b[90m 61 |\u001b[39m     \u001b[90m// Perform search first\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 64 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:62:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:52.638Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-Mobile-Safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-Mobile-Safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-f7cfe-s---REQ-010-REQ-011-REQ-012-Mobile-Safari\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-e5bc258f4be49182a341",
+              "file": "booking-portal.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal View hotel details - REQ-020 to REQ-027",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 34,
+                      "parallelIndex": 1,
+                      "status": "timedOut",
+                      "duration": 34909,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 99
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m  97 |\u001b[39m     \n \u001b[90m  98 |\u001b[39m     \u001b[90m// Search and select first hotel\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  99 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 100 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 101 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 102 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:99:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:58.148Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-Mobile-Safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-Mobile-Safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-06282-etails---REQ-020-to-REQ-027-Mobile-Safari\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-17e469a9968f013bb6e6",
+              "file": "booking-portal.spec.ts",
+              "line": 91,
+              "column": 7
+            },
+            {
+              "title": "@critical @booking-portal Complete booking flow - REQ-028 to REQ-035",
+              "ok": false,
+              "tags": [
+                "critical",
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 33,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 34826,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 135
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 133 |\u001b[39m     \n \u001b[90m 134 |\u001b[39m     \u001b[90m// Search for hotels\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m     \u001b[36mconst\u001b[39m checkInDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckOutDate())\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:135:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:58.008Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-Mobile-Safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-Mobile-Safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-d94a4-g-flow---REQ-028-to-REQ-035-Mobile-Safari\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-f7122dc7cbb31bdd8ce5",
+              "file": "booking-portal.spec.ts",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Sort search results - REQ-015, REQ-016",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 35,
+                      "parallelIndex": 6,
+                      "status": "timedOut",
+                      "duration": 34918,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 219
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 217 |\u001b[39m \u001b[90m     */\u001b[39m\n \u001b[90m 218 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 219 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 220 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 221 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 222 |\u001b[39m     \u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:219:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:58.291Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-Mobile-Safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-Mobile-Safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-6431a-h-results---REQ-015-REQ-016-Mobile-Safari\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-81875f1bb5516c0448a5",
+              "file": "booking-portal.spec.ts",
+              "line": 212,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal View booking history - REQ-008, REQ-038",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 36,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2621,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:58.491Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-06e56a2e4ec083e16cf8",
+              "file": "booking-portal.spec.ts",
+              "line": 240,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Booking Portal - Error Handling",
+          "file": "booking-portal.spec.ts",
+          "line": 259,
+          "column": 6,
+          "specs": [
+            {
+              "title": "@booking-portal Handle invalid search dates",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "timedOut",
+                      "duration": 32946,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 273
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 271 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 272 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 273 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 274 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\n \u001b[90m 275 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:last-of-type'\u001b[39m\u001b[33m,\u001b[39m checkOutDate)\u001b[33m;\u001b[39m\n \u001b[90m 276 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:273:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.916Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-chromium\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-a1b496ba0d4ea5add214",
+              "file": "booking-portal.spec.ts",
+              "line": 264,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle empty search",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 1948,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:33.904Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-84efb7248c78731322ec",
+              "file": "booking-portal.spec.ts",
+              "line": 283,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle invalid search dates",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 8,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-QI4JMf -juggler-pipe -silent\n<launched> pid=1388\n[pid=1388] <process did exit: exitCode=3221225477, signal=null>\n[pid=1388] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-QI4JMf -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=1388\u001b[22m\n\u001b[2m  - [pid=1388] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=1388] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1388] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1388] <kill>\u001b[22m\n\u001b[2m  - [pid=1388] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=1388] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1388] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-QI4JMf -juggler-pipe -silent\n<launched> pid=1388\n[pid=1388] <process did exit: exitCode=3221225477, signal=null>\n[pid=1388] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-QI4JMf -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=1388\u001b[22m\n\u001b[2m  - [pid=1388] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=1388] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1388] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1388] <kill>\u001b[22m\n\u001b[2m  - [pid=1388] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=1388] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1388] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-QI4JMf -juggler-pipe -silent\n<launched> pid=1388\n[pid=1388] <process did exit: exitCode=3221225477, signal=null>\n[pid=1388] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-QI4JMf -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=1388\u001b[22m\n\u001b[2m  - [pid=1388] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=1388] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1388] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=1388] <kill>\u001b[22m\n\u001b[2m  - [pid=1388] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=1388] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=1388] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:47.644Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-03575aae0d68558fdb09",
+              "file": "booking-portal.spec.ts",
+              "line": 264,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle empty search",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 7,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-dxJ2dz -juggler-pipe -silent\n<launched> pid=30012\n[pid=30012] <process did exit: exitCode=3221225477, signal=null>\n[pid=30012] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-dxJ2dz -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=30012\u001b[22m\n\u001b[2m  - [pid=30012] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=30012] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=30012] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=30012] <kill>\u001b[22m\n\u001b[2m  - [pid=30012] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=30012] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=30012] <gracefully close end>\u001b[22m\n",
+                        "stack": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-dxJ2dz -juggler-pipe -silent\n<launched> pid=30012\n[pid=30012] <process did exit: exitCode=3221225477, signal=null>\n[pid=30012] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-dxJ2dz -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=30012\u001b[22m\n\u001b[2m  - [pid=30012] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=30012] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=30012] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=30012] <kill>\u001b[22m\n\u001b[2m  - [pid=30012] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=30012] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=30012] <gracefully close end>\u001b[22m\n"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-dxJ2dz -juggler-pipe -silent\n<launched> pid=30012\n[pid=30012] <process did exit: exitCode=3221225477, signal=null>\n[pid=30012] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> C:\\Users\\ShivaKumarBantu\\AppData\\Local\\ms-playwright\\firefox-1509\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\SHIVAK~1\\AppData\\Local\\Temp\\playwright_firefoxdev_profile-dxJ2dz -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=30012\u001b[22m\n\u001b[2m  - [pid=30012] <process did exit: exitCode=3221225477, signal=null>\u001b[22m\n\u001b[2m  - [pid=30012] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=30012] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=30012] <kill>\u001b[22m\n\u001b[2m  - [pid=30012] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=30012] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=30012] <gracefully close end>\u001b[22m\n"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:51:47.756Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-ba7f804b9ae0021df07d",
+              "file": "booking-portal.spec.ts",
+              "line": 283,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle invalid search dates",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 3,
+                      "status": "timedOut",
+                      "duration": 36068,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 273
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 271 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 272 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 273 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 274 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\n \u001b[90m 275 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:last-of-type'\u001b[39m\u001b[33m,\u001b[39m checkOutDate)\u001b[33m;\u001b[39m\n \u001b[90m 276 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:273:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:14.103Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-webkit\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-webkit\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-webkit\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-fb3dad6790e52763a536",
+              "file": "booking-portal.spec.ts",
+              "line": 264,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle empty search",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3241,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:14.088Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-29eceef3a946c817cf70",
+              "file": "booking-portal.spec.ts",
+              "line": 283,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle invalid search dates",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 8,
+                      "status": "timedOut",
+                      "duration": 37666,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 273
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 271 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 272 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 273 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 274 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\n \u001b[90m 275 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:last-of-type'\u001b[39m\u001b[33m,\u001b[39m checkOutDate)\u001b[33m;\u001b[39m\n \u001b[90m 276 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:273:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:39.666Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-Mobile-Chrome\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-Mobile-Chrome\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-Mobile-Chrome\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-67650c4a0bb599848d9d",
+              "file": "booking-portal.spec.ts",
+              "line": 264,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle empty search",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 30,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1778,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:52:51.738Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-ca55cf4222698416f821",
+              "file": "booking-portal.spec.ts",
+              "line": 283,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle invalid search dates",
+              "ok": false,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 36,
+                      "parallelIndex": 2,
+                      "status": "timedOut",
+                      "duration": 34287,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts",
+                            "column": 16,
+                            "line": 273
+                          },
+                          "message": "Error: page.fill: Test timeout of 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('input[placeholder*=\"destination\" i]')\u001b[22m\n\n\n\u001b[0m \u001b[90m 271 |\u001b[39m     \u001b[36mconst\u001b[39m checkOutDate \u001b[33m=\u001b[39m formatDate(getCheckInDate())\u001b[33m;\u001b[39m\n \u001b[90m 272 |\u001b[39m     \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 273 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[placeholder*=\"destination\" i]'\u001b[39m\u001b[33m,\u001b[39m \u001b[33mTEST_HOTEL\u001b[39m\u001b[33m.\u001b[39mcity)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 274 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:first-of-type'\u001b[39m\u001b[33m,\u001b[39m checkInDate)\u001b[33m;\u001b[39m\n \u001b[90m 275 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'input[type=\"date\"]:last-of-type'\u001b[39m\u001b[33m,\u001b[39m checkOutDate)\u001b[33m;\u001b[39m\n \u001b[90m 276 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'button:has-text(\"Search\")'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\tests\\booking-portal.spec.ts:273:16\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:53:01.650Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-Mobile-Safari\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-Mobile-Safari\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ShivaKumarBantu\\Documents\\SDLC\\SDLCPipeline\\test-automation\\test-results\\booking-portal-Booking-Por-ac2b1-Handle-invalid-search-dates-Mobile-Safari\\error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-355e2e576af22fc6671a",
+              "file": "booking-portal.spec.ts",
+              "line": 264,
+              "column": 7
+            },
+            {
+              "title": "@booking-portal Handle empty search",
+              "ok": true,
+              "tags": [
+                "booking-portal"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 37,
+                      "parallelIndex": 7,
+                      "status": "passed",
+                      "duration": 2264,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-06-18T12:53:21.492Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51ac9cfa09ecc9fe742d-bddbffb9dbe00ace38d5",
+              "file": "booking-portal.spec.ts",
+              "line": 283,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-06-18T12:51:22.776Z",
+    "duration": 134693.127,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 32,
+    "flaky": 0
+  }
+}
