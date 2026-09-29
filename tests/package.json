@@ -1,0 +1,3 @@
+{
+  "note": "Placeholder to ensure /tests exists on main. Full Playwright setup is pending because branch creation via tool did not create a remote ref visible to GitHub API."
+}
